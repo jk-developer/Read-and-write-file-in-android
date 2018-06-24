@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             etInput.setText(sb.toString())
         } catch (e: IOException) {
             Toast
-                    .makeText(this, "Could not read file", Toast.LENGTH_SHORT)
+                    .makeText(this, "Could not read  the file", Toast.LENGTH_SHORT)
                     .show()
         }
     }
